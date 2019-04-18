@@ -8,7 +8,7 @@
       <p>林俊杰</p>
       <p>93. 30万 粉丝</p>
     </div>
-    <div class="s_list">
+    <router-link to="/detail" tag="li" class="s_list">
       <div class="s_content">
         <div class="s_time">
           <span class="t_week">周六</span>
@@ -16,12 +16,12 @@
           <span class="t_month">4月</span>
         </div>
         <div class="s_detail">
-          <div class="s_title">JJ 林俊杰《圣所2.0》世界巡回演唱会</div>
+          <div class="s_title">JJ 林俊杰《圣所2.0》演唱会...</div>
           <div class="s_site">厦门 · 厦门体育中心体育场</div>
         </div>
       </div>
-    </div>
-    <van-goods-action>
+    </router-link>
+    <!-- <van-goods-action>
       <van-goods-action-mini-btn
         class="iconfont iconhome"
         to="/"
@@ -35,7 +35,7 @@
         primary
         text="购买门票"
       />
-    </van-goods-action>
+    </van-goods-action> -->
   </div>
 </template>
 <style lang="less">
@@ -49,8 +49,8 @@
     }
     .s_person{
       position: absolute;
-      top:130px;
-      left:130px;
+      top:110px;
+      left:110px;
       img{
         width: 100px;
         height: 100px;
@@ -61,7 +61,7 @@
       }
     }
     .s_list{
-      margin: 150px 18px 0;
+      margin: 100px 18px 0;
       .s_content{       
         height: 100px;
         border-bottom: 1px solid #eeeeee;
@@ -71,6 +71,7 @@
           display: flex;
           flex-direction: column;
           justify-content: center;
+          margin-right:18px;
           .t_day{
             font-size: 16px;
           }
@@ -83,6 +84,7 @@
             white-space: nowrap;
             text-overflow: ellipsis;
             overflow: hidden;
+            margin-bottom: 10px;
           }
           .s_site{
             color:#b5b5b5;

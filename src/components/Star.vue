@@ -73,7 +73,7 @@ export default {
   methods: {
     getDetailData () {
       Axios.get('/json/stardata.json').then(res => {
-        console.log(res.data)
+        window.console.log(res.data)
         // var data = res.data
         // var tmp = data.find(item => {
         //   return item.id === parseInt(this.$route.params.id)
@@ -117,7 +117,7 @@ export default {
       overflow-x: auto;
       overflow-y: hidden;
       display: flex;
-      margin:0 18px;
+      margin-left: 18px;
       li{
         flex:1 0 auto;
         box-sizing: border-box;        

@@ -57,15 +57,16 @@
 
 <style lang="less">
 #nav{
-  height: 150px;
+  height: 140px;
+  margin-top: 10px;
   overflow: hidden;
   ul{
-    padding-top:20px;
+    // padding-top:20px;
     display:flex;
     flex-wrap: wrap;
     li{
-      height: 65px;
-      width: 93.75px;
+      height: 70px;
+      flex:1 0 25%;
       a{
         color: #1e1e1e;
         display: flex;

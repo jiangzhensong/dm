@@ -3,9 +3,9 @@
     <Top></Top>
     <Banner></Banner>
     <Nav></Nav>
-    <div class="ban">
+    <router-link to="/login" tag="div" class="ban">
       <img src="//img.alicdn.com/tps/i4/TB1tc1JQsbpK1RjSZFytKX_qFXa.gif_q60.jpg_.webp" alt="">
-    </div>
+    </router-link>
     <Star></Star>
     <Recentshow></Recentshow>
     <!-- <van-card
@@ -52,7 +52,7 @@
   @import '../styles/reset.less';
   .ban {
     img{
-      height: 120px;
+      height: 100px;
       width: 100%;
     }
   }

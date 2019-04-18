@@ -18,7 +18,7 @@
     </div>
     <div class="recent_content" >
       <ul>
-        <router-link to="/ticket" tag="li"  v-for="item in mList" v-bind:key=item.id>
+        <router-link to="/detail" tag="li"  v-for="item in mList" v-bind:key=item.id>
           <img :src="item.imgurl" alt="">
           <h3>{{item.name}}</h3>
           <p>{{item.cost}}</p>
@@ -81,7 +81,7 @@ export default {
 <style lang="less">
   #recent{
     height: 380px;
-    margin:0 18px;
+    margin-left:18px;
     .recent_title{
       display: flex;
       justify-content: space-between;
@@ -112,8 +112,8 @@ export default {
         flex:1 0 auto;
         margin-right: 14px;
           img{
-            width: 150px;
-            height: 220px;
+            width: 130px;
+            height: 190px;
 
           }
           h3{
