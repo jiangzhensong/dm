@@ -19,8 +19,8 @@
             <span>音乐会</span>
           </a>
       </router-link>
-      <router-link to="" tag="li">
-          <a href="">
+      <router-link to="/pe" tag="li">
+          <a href="/pe">
             <i class="iconfont icontiyu"></i>
             <span>体育</span>
           </a>

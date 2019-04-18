@@ -1,11 +1,13 @@
 <template>
   <div id = "top">
-    <router-link to="" >
+    <router-link to="/city" >
       <i class="iconfont iconditu"></i>
       <span>全国</span>
-    </router-link>
+    </router-link >
+    <router-link to="/center">
     <input type="text" placeholder="搜索明星，演出比赛，场馆" />
     <i class="iconfont iconuser"></i>
+    </router-link>
   </div>
 </template>
 
