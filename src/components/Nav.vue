@@ -1,19 +1,19 @@
 <template>
   <div id="nav">
     <ul>
-      <router-link to="" tag="li">
+      <router-link to="/perform/yanchanghui" tag="li">
         <a href="">
           <i class="iconfont iconmaikefeng"></i>
           <span>演唱会</span>
         </a>
       </router-link>
-      <router-link to="" tag="li">
+      <router-link to="/perform/huajv" tag="li">
           <a href="">
             <i class="iconfont iconhuajugeju28"></i>
             <span>话剧歌剧</span>
           </a>
       </router-link>
-      <router-link to="" tag="li">
+      <router-link to="/perform/yinyue" tag="li">
           <a href="">
             <i class="iconfont icongangqin"></i>
             <span>音乐会</span>
@@ -25,25 +25,25 @@
             <span>体育</span>
           </a>
       </router-link>
-      <router-link to="" tag="li">
+      <router-link to="/perform/zatan" tag="li">
           <a href="">
             <i class="iconfont iconquyuanzatan28"></i>
             <span>曲苑杂谈</span>
           </a>
       </router-link>
-      <router-link to="" tag="li">
+      <router-link to="/perform/etong" tag="li">
           <a href="">
             <i class="iconfont iconqinzi"></i>
             <span>亲子</span>
           </a>
       </router-link>
-      <router-link to="" tag="li">
+      <router-link to="/perform/xiuxian" tag="li">
           <a href="">
             <i class="iconfont iconzhanlanxiuxian28"></i>
             <span>展览休闲</span>
           </a>
       </router-link>
-      <router-link to="" tag="li">
+      <router-link to="/overseas" tag="li">
           <a href="">
             <i class="iconfont iconjingwai"></i>
             <span>境外</span>

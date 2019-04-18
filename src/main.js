@@ -9,6 +9,10 @@ import router from './router'
 // .use(GoodsAction)
 // .use(GoodsActionBigBtn)
 // .use(GoodsActionMiniBtn)
+import { Cell,List } from 'vant';
+
+Vue.use(Cell).use(List);
+
 
 Vue.config.productionTip = false
 
