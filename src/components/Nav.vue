@@ -1,0 +1,83 @@
+<template>
+  <div id="nav">
+    <ul>
+      <router-link to="" tag="li">
+        <a href="">
+          <i class="iconfont iconmaikefeng"></i>
+          <span>演唱会</span>
+        </a>
+      </router-link>
+      <router-link to="" tag="li">
+          <a href="">
+            <i class="iconfont iconhuajugeju28"></i>
+            <span>话剧歌剧</span>
+          </a>
+      </router-link>
+      <router-link to="" tag="li">
+          <a href="">
+            <i class="iconfont icongangqin"></i>
+            <span>音乐会</span>
+          </a>
+      </router-link>
+      <router-link to="" tag="li">
+          <a href="">
+            <i class="iconfont icontiyu"></i>
+            <span>体育</span>
+          </a>
+      </router-link>
+      <router-link to="" tag="li">
+          <a href="">
+            <i class="iconfont iconquyuanzatan28"></i>
+            <span>曲苑杂谈</span>
+          </a>
+      </router-link>
+      <router-link to="" tag="li">
+          <a href="">
+            <i class="iconfont iconqinzi"></i>
+            <span>亲子</span>
+          </a>
+      </router-link>
+      <router-link to="" tag="li">
+          <a href="">
+            <i class="iconfont iconzhanlanxiuxian28"></i>
+            <span>展览休闲</span>
+          </a>
+      </router-link>
+      <router-link to="" tag="li">
+          <a href="">
+            <i class="iconfont iconjingwai"></i>
+            <span>境外</span>
+          </a>
+      </router-link>
+  
+
+    </ul>
+  </div>
+</template>
+
+<style lang="less">
+#nav{
+  height: 150px;
+  overflow: hidden;
+  ul{
+    padding-top:20px;
+    display:flex;
+    flex-wrap: wrap;
+    li{
+      height: 65px;
+      width: 93.75px;
+      a{
+        color: #1e1e1e;
+        display: flex;
+        flex-direction:column;
+        text-align:center;
+        i{
+          font-size: 24px;
+        }
+      }
+      
+      
+    }
+  }
+}
+</style>

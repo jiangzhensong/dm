@@ -1,0 +1,24 @@
+[
+    {
+      "id": 100,
+      "name": "林俊杰",
+      "personNum": "94.5",
+      "imgurl": "//intercms.damai.cn/artist/pic/1534413408234/1534413408234-main.jpg?x-oss-process=image/quality,q_80/format,webp"
+
+
+    },
+    {
+      "id": 101,
+      "name": "薛之谦",
+      "personNum": "53.5",
+      "imgurl": "//intercms.damai.cn/artist/pic/1534413417645/1534413417645-main.jpg?x-oss-process=image/quality,q_80/format,webp"
+
+
+    },
+    {
+      "id": 102,
+      "name": "陈奕迅",
+      "personNum": "78.5",
+      "imgurl": "//intercms.damai.cn/artist/pic/1521704613389/1521704613389-main.jpg?x-oss-process=image/quality,q_80/format,webp"
+    }
+]
