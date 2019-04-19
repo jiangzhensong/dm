@@ -3,12 +3,12 @@
     <div class="s_top">
       <img src="//intercms.damai.cn/artist/bgpic/1534413408234/1534413408234.jpg?x-oss-process=image/resize,w_750,/quality,q_50/format,webp" alt="">
     </div>
-    <div class="s_person">
-      <img src="//intercms.damai.cn/artist/pic/1534413408234/1534413408234-main.jpg?x-oss-process=image/quality,q_50/format,webp" alt="">
-      <p>林俊杰</p>
+    <div class="s_person" >
+      <img :src=info.imgurl alt="">
+      <p>{{info.name}}</p>
       <p>93. 30万 粉丝</p>
     </div>
-    <router-link to="/detail" tag="li" class="s_list">
+    <router-link to="/detail" tag="li" class="s_list" >
       <div class="s_content">
         <div class="s_time">
           <span class="t_week">周六</span>
@@ -16,7 +16,7 @@
           <span class="t_month">4月</span>
         </div>
         <div class="s_detail">
-          <div class="s_title">JJ 林俊杰《圣所2.0》演唱会...</div>
+          <div class="s_title">JJ {{info.name}}《圣所2.0》演唱会...</div>
           <div class="s_site">厦门 · 厦门体育中心体育场</div>
         </div>
       </div>
@@ -38,6 +38,54 @@
     </van-goods-action> -->
   </div>
 </template>
+
+<script>
+import axios from 'axios';
+export default {
+  name: 'starinfo',
+
+  data () {
+    return {
+      info: {},
+      show: false
+    }
+  },
+
+
+  methods: {
+    onClickLeft () {
+      this.$router.back();
+    },
+    getDetailData () {
+      axios.get('/json/stardata.json', {
+        params: {
+          id: this.$route.params.id
+        }
+      }).then(res => {
+        // window.console.log(res.data);
+        // var data = res.data
+        // var tmp = data.find(item => {
+        //   return item.id === parseInt(this.$route.params.id)
+        // })
+        //this.info = res.data;
+        // window.console.log(info);
+        var data = res.data;
+        window.console.log(this.$route.params.id);
+        this.info = data.find(item => {
+        return item.id === parseInt(this.$route.params.id)
+        })
+      })
+    }
+  },
+
+
+  created () {
+    this.getDetailData();
+  }
+}
+</script>
+
+
 <style lang="less">
   @import '../styles/reset.less';
   .s_info{

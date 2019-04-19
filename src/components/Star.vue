@@ -2,14 +2,14 @@
   <div id = "star">
     <div class="star_title">
       <h2>大咖在大麦</h2>
-      <router-link to="/">
+      <router-link to="/perform" tag="a">
         查看更多
         <i class="iconfont iconjiankuohaoxiyou"></i>
       </router-link>
     </div>
     <div class="star_main">
         <ul>
-          <router-link to="/starinfo" tag="li"  v-for="item in starList" v-bind:key=item.id>
+          <router-link :to="{ name: 'starinfo', params: { id: item.id } }" tag="li"  v-for="item in starList" v-bind:key=item.id>
             <div class="star_top">
               <div class="star_img">
                 <img :src="item.imgurl" alt="">
@@ -21,7 +21,7 @@
               <div class="star_follow">+ 关注</div>
             </div>
             <div class="star_yc">
-              <p>最近13场演出</p>
+              <p>最近{{item.id}}场演出</p>
               <i class="iconfont iconjiankuohaoxiyou"></i>
             </div>
           </router-link>
@@ -73,7 +73,7 @@ export default {
   methods: {
     getDetailData () {
       Axios.get('/json/stardata.json').then(res => {
-        window.console.log(res.data)
+        // window.console.log(res.data)
         // var data = res.data
         // var tmp = data.find(item => {
         //   return item.id === parseInt(this.$route.params.id)

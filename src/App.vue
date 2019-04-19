@@ -1,7 +1,7 @@
 <template>
-  <keep-alive exclude="myDetail">
+  <!-- <keep-alive exclude="myDetail"> -->
       <router-view></router-view>
-  </keep-alive>
+  <!-- </keep-alive> -->
 </template>
 
 

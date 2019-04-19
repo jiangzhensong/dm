@@ -8,7 +8,7 @@ const router = new VueRouter({
     { path: '/', component: () => import('./views/Home.vue'),children:[
       { path: '/home', component: () => import('./views/Home.vue') }
     ]},
-    { path: '/starinfo', component: () => import('./views/Starinfo.vue') },
+    { path: '/starinfo/:id', name:'starinfo', component: () => import('./views/Starinfo.vue') },
     { path: '/ticket', component: () => import('./views/ticket.vue') }, 
     {
       path: '/Receiving-address', component: () => import('./views/Receiving-address.vue'),

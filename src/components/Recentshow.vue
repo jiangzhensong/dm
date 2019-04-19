@@ -2,7 +2,7 @@
   <div id="recent">
     <div class="recent_title">
       <h2>近期演出</h2>
-      <router-link to="/">
+      <router-link to="/perform" tag="a">
         更多演出
         <i class="iconfont iconjiankuohaoxiyou"></i>
       </router-link>
@@ -85,7 +85,7 @@ export default {
     .recent_title{
       display: flex;
       justify-content: space-between;
-      margin: 20px 0;
+      margin:18px 12px 18px 0;
       h2{
         font-weight: 700;
         font-size: 16px;
@@ -97,6 +97,7 @@ export default {
     .recent_week{
       display: flex;
       justify-content: space-between;
+      margin-right: 18px;
       margin-bottom: 20px;
     }
     .recent_content{
