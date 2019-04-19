@@ -22,7 +22,7 @@ export default {
         },
         gitListss:{
             type:Array
-        }
+        },
     },
     data(){
         return{
@@ -32,7 +32,8 @@ export default {
                 "推荐排序",
                 "距离最近",
             ],
-            getLists:[]
+            getLists:[],
+            thisItems:this.idsss,
         }
     },
     computed:{

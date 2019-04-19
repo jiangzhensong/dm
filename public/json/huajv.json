@@ -3,6 +3,7 @@
     "data": {
         "projectInfo": [
             {
+                "ips":"huajv",
                 "logicDynamicLabel": "话剧歌剧畅销榜TOP10",
                 "promotionTags": [
                     "套票"
@@ -56,6 +57,7 @@
                 "formattedPriceStr": "80-1181"
             },
             {
+                "ips":"huajv",
                 "logicDynamicLabel": "音乐剧热度榜TOP10",
                 "promotionTags": [
                     "套票"
@@ -105,6 +107,7 @@
                 "formattedPriceStr": "100-680"
             },
             {
+                "ips":"huajv",
                 "logicDynamicLabel": "话剧歌剧新草榜",
                 "promotionTags": [],
                 "logicLabelInfo": {
@@ -153,6 +156,7 @@
                 "formattedPriceStr": "60-680"
             },
             {
+                "ips":"huajv",
                 "logicDynamicLabel": "话剧热度榜TOP10",
                 "promotionTags": [],
                 "logicLabelInfo": {
@@ -203,6 +207,7 @@
                 "formattedPriceStr": "99-980"
             },
             {
+                "ips":"huajv",
                 "logicDynamicLabel": "话剧热度榜TOP10",
                 "promotionTags": [
                     "套票"
@@ -254,6 +259,7 @@
                 "formattedPriceStr": "80-1088"
             },
             {
+                "ips":"huajv",
                 "promotionTags": [
                     "套票"
                 ],
@@ -294,6 +300,7 @@
                 "formattedPriceStr": "80-1770"
             },
             {
+                "ips":"huajv",
                 "promotionTags": [],
                 "logicLabelInfo": {},
                 "siteStatus": 3,
@@ -332,6 +339,7 @@
                 "formattedPriceStr": "180-1066"
             },
             {
+                "ips":"huajv",
                 "logicDynamicLabel": "话剧歌剧畅销榜TOP10",
                 "promotionTags": [
                     "套票"
@@ -386,6 +394,7 @@
                 "formattedPriceStr": "80-1088"
             },
             {
+                "ips":"huajv",
                 "promotionTags": [],
                 "logicLabelInfo": {},
                 "siteStatus": 3,
@@ -431,6 +440,7 @@
                 "formattedPriceStr": "200-1280"
             },
             {
+                "ips":"huajv",
                 "logicDynamicLabel": "话剧歌剧新草榜",
                 "promotionTags": [],
                 "logicLabelInfo": {
@@ -479,6 +489,7 @@
                 "formattedPriceStr": "100-880"
             },
             {
+                "ips":"huajv",
                 "promotionTags": [],
                 "logicLabelInfo": {},
                 "siteStatus": 3,
@@ -524,6 +535,7 @@
                 "formattedPriceStr": "180-480"
             },
             {
+                "ips":"huajv",
                 "logicDynamicLabel": "开心麻花畅销榜TOP10",
                 "promotionTags": [],
                 "logicLabelInfo": {
@@ -571,6 +583,7 @@
                 "formattedPriceStr": "80-880"
             },
             {
+                "ips":"huajv",
                 "logicDynamicLabel": "北京最火话剧",
                 "promotionTags": [
                     "套票"
@@ -620,6 +633,7 @@
                 "formattedPriceStr": "80-1088"
             },
             {
+                "ips":"huajv",
                 "logicDynamicLabel": "话剧畅销榜TOP10",
                 "promotionTags": [
                     "套票"
@@ -670,6 +684,7 @@
                 "formattedPriceStr": "180-1180"
             },
             {
+                "ips":"huajv",
                 "logicDynamicLabel": "话剧歌剧新草榜",
                 "promotionTags": [],
                 "logicLabelInfo": {
@@ -718,6 +733,7 @@
                 "formattedPriceStr": "80-880"
             },
             {
+                "ips":"huajv",
                 "promotionTags": [
                     "套票"
                 ],
@@ -758,6 +774,7 @@
                 "formattedPriceStr": "162-3914"
             },
             {
+                "ips":"huajv",
                 "promotionTags": [],
                 "logicLabelInfo": {},
                 "siteStatus": 3,
@@ -796,6 +813,7 @@
                 "formattedPriceStr": "100-580"
             },
             {
+                "ips":"huajv",
                 "promotionTags": [],
                 "logicLabelInfo": {},
                 "siteStatus": 3,
@@ -834,6 +852,7 @@
                 "formattedPriceStr": "80-880"
             },
             {
+                "ips":"huajv",
                 "promotionTags": [],
                 "logicLabelInfo": {},
                 "siteStatus": 3,
@@ -879,6 +898,7 @@
                 "formattedPriceStr": "100-1180"
             },
             {
+                "ips":"huajv",
                 "promotionTags": [
                     "套票"
                 ],

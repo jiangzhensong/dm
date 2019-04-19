@@ -1,16 +1,16 @@
 <template>
-    <div id="detail">
+    <div id="detail" :style="styleObjects">
         <div class="detail-main">
             <div class="main-title">
-                <div class="title-img"></div>
+                <div class="title-img"><img :src="itemList.verticalPic"/></div>
                 <div class="title-content">
                     <h2>
-                        【北京站】陈小春 Stop Angry 巡回演唱会（北京站）
+                        {{itemList.name}}
                     </h2>
-                    <span class="price">¥380-¥1280</span>
+                    <span class="price">¥{{itemList.priceStr}}</span>
                 </div>
             </div>
-            <Detailmain></Detailmain>
+            <Detailmain :itemLists="itemList"></Detailmain>
         </div>
         <div class="detail-footer">
             <div class="footer-love">
@@ -24,19 +24,54 @@
 
 <script>
 import Detailmain from '../components/Detailcom/Detailmain.vue'
+import Axios from 'axios'
 export default {
     components:{
         Detailmain,
+    },
+    data(){
+        return{
+            itemList:[],
+            queryId:this.$route.path.substring(12),
+        }
+    },
+    computed:{
+        styleObjects(){
+            return {
+                background: 'url('+this.itemList.verticalPic+')'
+            }
+        }
+    },
+    methods:{
+        getIditem(){
+            let theList = this.$route.query.id;
+            console.log(theList);
+            Axios.get('/json/'+theList+'.json').then(res=>{
+                let data = res.data;
+                let thatList = [];
+                thatList=data.data.projectInfo;
+                for(let i = 0;i<thatList.length;i++){
+                    if(thatList[i].id==this.queryId){
+                        this.itemList=thatList[i]
+                    }
+                }
+                // console.log(this.itemList)
+                // console.log(this.queryId)
+                // console.log(theList)
+            })
+        }
+    },
+    created(){
+        this.getIditem();
     }
 }
 </script>
-
 
 <style lang="less">
     #detail{
         width: 100%;
         // height: 1000px;
-        background: url("https://gd3.alicdn.com/imgextra/i4/2/O1CN01M8Alg72GdS9Uh2nP3_!!2-item_pic.png_400x400") no-repeat;
+        background:  no-repeat;
         background-size: 100%; 
         .detail-main{
             width: 100%;
@@ -46,21 +81,25 @@ export default {
             left: 0;
             right: 0;
             // bottom: 50px;
-            padding-bottom: 44px;
+            padding-bottom: 35px;
+            // background: #ffffff;
+            box-sizing: border-box; 
             .main-title{
                 width: 100%;
                 height: 178px;
-                background-color: rgba(0,0,0,0.5);
+                background-color: rgba(255,255,255,0.5);
                 padding: 20px 15px;
                 box-sizing: border-box; 
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
+                color: #000;
                 .title-img{
-                    width: 100px;
-                    height: 135px;
-                    background: url("https://gd3.alicdn.com/imgextra/i4/2/O1CN01M8Alg72GdS9Uh2nP3_!!2-item_pic.png_400x400") no-repeat;
-                    background-size: 100%;
+                    img{
+                        display: block;
+                        width: 100px;
+                        height: 135px;
+                    }
                 }
                 .title-content{
                     width: 175px;
@@ -79,12 +118,12 @@ export default {
                         text-overflow: ellipsis;
                         -webkit-line-clamp: 2;
                         -webkit-box-orient: vertical;
-                        color: #fff;
+                        color: #000;
                     }
                     .price{
                         font-size: 14px;
                         line-height: 16px;
-                        color: #fff;
+                        color: red;
                     }
                 }
             }
@@ -114,6 +153,8 @@ export default {
                     text-align: center;
                     box-sizing: border-box;
                     border: 1px solid #eee; 
+                    font-size: 12px;
+                    color: #000;
                 }
                 .love{
                     display: block;
@@ -123,6 +164,7 @@ export default {
                     text-align: center;
                     box-sizing: border-box;
                     border: 1px solid #eee; 
+                    font-size: 12px;
                 }
             }
             .footer-buy{
@@ -132,6 +174,8 @@ export default {
                 text-align: center;
                 background-color:  #ff407b;
                 color: #fff;
+                font-size: 12px;
+
             }
         }
     }

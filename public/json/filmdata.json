@@ -1,17 +1,20 @@
 [
   {
+    "ips":"filmdata",
     "id": 100,
     "name": "《24/7 Serendipity》",
     "cost": "￥200-538",
     "imgurl": "//pimg.dmcdn.cn/perform/project/1747/174771_n.jpg?_t=1551770083344&x-oss-process=image/quality,q_60/format,webp"
   },
   {
+    "ips":"filmdata",
     "id": 101,
     "name": "《哈利·波特与魔法石》",
     "cost": "￥435-750",
     "imgurl": "//pimg.dmcdn.cn/perform/project/1765/176517_n.jpg?_t=1554172706488?1555517779465&x-oss-process=image/resize,p_50"
   },
   {
+    "ips":"filmdata",
     "id": 102,
     "name": "《闽南传奇》",
     "cost": "￥200-538",

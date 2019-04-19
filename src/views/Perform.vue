@@ -1,4 +1,5 @@
 <template>
+
     <div>
         <div id="prohead">
             <ul class="pro-head">
@@ -12,7 +13,9 @@
             </ul>
         </div>
         <Miucontent :routerList="theRouter" :gitListss="getLists"></Miucontent>
+        <router-link class="goIndex" to="/home">首页</router-link>
     </div>
+
 </template>
 
 <script>
@@ -37,7 +40,9 @@ export default {
                 {name:"旅游展览",id:"lvyou"},
             ],
             theId:'',
-            getLists:[]
+            getLists:[],
+            queryIds:'',
+            thisidsss:[]
         }
     },
     components:{
@@ -47,7 +52,7 @@ export default {
 
     methods:{
         fn(id){
-            this.$router.push({path:'/perform/'+id})
+            this.$router.push({name:'Perform',params:{id:id},query:{id:id}})
             this.getList();
         },
         getList(){
@@ -61,7 +66,21 @@ export default {
     }
 }
 </script>
-<style lang="less">
+<style lang="less"> 
+    .goIndex{
+        position: fixed;
+        width: 40px;
+        height: 40px;
+        font-size: 14px;
+        color: #fff;
+        background: rgba(255, 18, 104, 0.5);
+        border-radius: 50%;
+        right: 10px;
+        top: 150px;
+        text-align: center;
+        line-height: 40px;
+    }
+
     #prohead{
         position: fixed;
         top: 0;

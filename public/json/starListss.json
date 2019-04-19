@@ -1,8 +1,9 @@
 {
     "api": "mtop.damai.wireless.search.project.classify",
     "data": {
-        "currentCity": [
+        "projectInfo": [
             {
+                "ips":"starListss",
                 "activityTags": [],
                 "actores": "",
                 "categoryName": "体育",
@@ -43,7 +44,7 @@
                 "venueName": "新加坡国家体育场Singapore National Stadium",
                 "verticalPic": "https://pimg.dmcdn.cn/perform/project/1765/176587_n.jpg?_t=1554286296989"
             },
-            {
+            {   "ips":"starListss",
                 "activityTags": [],
                 "actores": "艺人: 林子祥",
                 "categoryName": "演唱会",
@@ -84,7 +85,7 @@
                 "venueName": "香港体育馆",
                 "verticalPic": "https://pimg.dmcdn.cn/perform/project/1762/176245_n.jpg?_t=1553505023216"
             },
-            {
+            {   "ips":"starListss",
                 "activityTags": [],
                 "actores": "艺人: Troye Sivan",
                 "categoryName": "演唱会",
@@ -125,7 +126,7 @@
                 "venueName": "Impact Exhibition Hall 5",
                 "verticalPic": "https://pimg.dmcdn.cn/perform/project/1769/176975_n.jpg?_t=1555308812025"
             },
-            {
+            {   "ips":"starListss",
                 "activityTags": [],
                 "actores": "艺人: 赖冠霖",
                 "categoryName": "演唱会",
@@ -166,7 +167,7 @@
                 "venueName": "亚洲国际博览馆HALL 10",
                 "verticalPic": "https://pimg.dmcdn.cn/perform/project/1763/176338_n.jpg?_t=1553680339281"
             },
-            {
+            {   "ips":"starListss",
                 "activityTags": [],
                 "actores": "艺人: 伍佰",
                 "categoryName": "演唱会",
@@ -207,7 +208,7 @@
                 "venueName": "澳门百老汇舞台",
                 "verticalPic": "https://pimg.dmcdn.cn/perform/project/1765/176519_n.jpg?_t=1554176535982"
             },
-            {
+            {   "ips":"starListss",
                 "activityTags": [],
                 "actores": "",
                 "categoryName": "演唱会",
@@ -248,7 +249,7 @@
                 "venueName": "澳门威尼斯人金光综艺馆",
                 "verticalPic": "https://pimg.dmcdn.cn/perform/project/1770/177035_n.jpg?_t=1555411412796"
             },
-            {
+            {   "ips":"starListss",
                 "activityTags": [],
                 "actores": "艺人: 卢巧音",
                 "categoryName": "演唱会",
@@ -289,7 +290,7 @@
                 "venueName": "麦花臣场馆",
                 "verticalPic": "https://pimg.dmcdn.cn/perform/project/1760/176052_n.jpg?_t=1552980583572"
             },
-            {
+            {   "ips":"starListss",
                 "activityTags": [],
                 "actores": "艺人: 郑秀妍（Jessica Jung）",
                 "categoryName": "演唱会",
@@ -330,7 +331,7 @@
                 "venueName": "澳门百老汇舞台",
                 "verticalPic": "https://pimg.dmcdn.cn/perform/project/1759/175945_n.jpg?_t=1552560340802"
             },
-            {
+            {   "ips":"starListss",
                 "activityTags": [],
                 "actores": "艺人: 苏永康",
                 "categoryName": "演唱会",
@@ -371,7 +372,7 @@
                 "venueName": "香港体育馆",
                 "verticalPic": "https://pimg.dmcdn.cn/perform/project/1760/176038_n.jpg?_t=1552975355738"
             },
-            {
+            {   "ips":"starListss",
                 "activityTags": [],
                 "actores": "艺人: 叶丽仪",
                 "categoryName": "演唱会",
