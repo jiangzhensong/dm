@@ -45,9 +45,9 @@ export default {
 </script>
 <style lang="less">
 .swiper-container {
-    margin-top:52px;
+    margin-top:44px;
     width: 100%;
-    height: 140px;
+    height: 120px;
     img{
         width: 100%
     }

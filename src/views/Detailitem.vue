@@ -14,10 +14,15 @@
         </div>
         <div class="detail-footer">
             <div class="footer-love">
+<<<<<<< HEAD
                 <router-link class="index" to="/home" >大麦首页</router-link>
                 <span class="love">关注</span>
+=======
+                <router-link to="/" tag="span" class="index">大麦首页</router-link>
+                <router-link to="/login" tag="span" class="love">关注</router-link>
+>>>>>>> 6ab800cadcebb8ad425ec4a0cd7ffb6872a9e1f6
             </div>
-            <div class="footer-buy">立即购买</div>
+            <router-link to="/login" tag="div" class="footer-buy">立即购买</router-link>
         </div>
     </div>
 </template>

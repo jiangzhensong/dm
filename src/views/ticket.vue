@@ -24,7 +24,7 @@
         收件人、电话号码订购超出限购张数的订单。
     </p>
     </div>
-    <van-goods-action>
+    <!-- <van-goods-action>
       <van-goods-action-mini-btn
         class="iconfont iconhome"
         to="/"
@@ -34,15 +34,15 @@
         class="iconfont iconziyuan"
         text="关注"
       />
-      <!-- <van-goods-action-big-btn
+      <van-goods-action-big-btn
         text="加入购物车"
         @click="onClickBigBtn"
       /> -->
-      <van-goods-action-big-btn
+      <!-- <van-goods-action-big-btn
         primary
         text="立即购票"
       />
-    </van-goods-action>
+    </van-goods-action> -->
   </div>
 </template>
 
