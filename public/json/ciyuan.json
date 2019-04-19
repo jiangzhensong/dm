@@ -38,7 +38,8 @@
                 "tourProjects": [],
                 "name": "【万有音乐系】宫崎骏2019动漫视听音乐会系列——春之童年合肥站",
                 "verticalPic": "https://pimg.dmcdn.cn/perform/project/1730/173024_n.jpg?_t=1546497999429",
-                "formattedPriceStr": "50-280"
+                "formattedPriceStr": "50-280",
+                "ips":"ciyuan"
             },
             {
                 "promotionTags": [
@@ -78,7 +79,8 @@
                 "tourProjects": [],
                 "name": "【万有音乐系】“千与千寻”宫崎骏·久石让动漫视听系列主题音乐会--昆明站",
                 "verticalPic": "https://pimg.dmcdn.cn/perform/project/1739/173929_n.jpg?_t=1547721701388",
-                "formattedPriceStr": "80-466"
+                "formattedPriceStr": "80-466",
+                "ips":"ciyuan"
             }
         ],
         "total": 2,

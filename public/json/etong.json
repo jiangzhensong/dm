@@ -2,7 +2,8 @@
     "api": "mtop.damai.wireless.search.search",
     "data": {
         "projectInfo": [
-            {
+            {   
+                "ips":"etong",
                 "promotionTags": [],
                 "logicLabelInfo": {},
                 "siteStatus": 3,
@@ -41,6 +42,7 @@
                 "formattedPriceStr": "30-50"
             },
             {
+                "ips":"etong",
                 "promotionTags": [],
                 "logicLabelInfo": {},
                 "siteStatus": 3,
@@ -79,6 +81,7 @@
                 "formattedPriceStr": "180-480"
             },
             {
+                "ips":"etong",
                 "promotionTags": [],
                 "logicLabelInfo": {},
                 "siteStatus": 3,
@@ -117,6 +120,7 @@
                 "formattedPriceStr": "180-580"
             },
             {
+                "ips":"etong",
                 "promotionTags": [
                     "套票"
                 ],
@@ -157,6 +161,7 @@
                 "formattedPriceStr": "180-900"
             },
             {
+                "ips":"etong",
                 "promotionTags": [],
                 "logicLabelInfo": {},
                 "siteStatus": 3,
@@ -202,6 +207,7 @@
                 "formattedPriceStr": "180-380"
             },
             {
+                "ips":"etong",
                 "promotionTags": [],
                 "logicLabelInfo": {},
                 "siteStatus": 3,
@@ -240,6 +246,7 @@
                 "formattedPriceStr": "80-480"
             },
             {
+                "ips":"etong",
                 "promotionTags": [],
                 "logicLabelInfo": {},
                 "siteStatus": 3,
@@ -278,6 +285,7 @@
                 "formattedPriceStr": "100-458"
             },
             {
+                "ips":"etong",
                 "promotionTags": [
                     "套票"
                 ],
@@ -318,6 +326,7 @@
                 "formattedPriceStr": "162-522"
             },
             {
+                "ips":"etong",
                 "promotionTags": [],
                 "logicLabelInfo": {},
                 "siteStatus": 3,
@@ -356,6 +365,7 @@
                 "formattedPriceStr": "180-380"
             },
             {
+                "ips":"etong",
                 "promotionTags": [],
                 "logicLabelInfo": {},
                 "siteStatus": 3,

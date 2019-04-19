@@ -48,9 +48,6 @@ export default {
         itemLists:{
         }
     },
-    created(){
-        console.log(this.itemLists)
-    }
 }
 </script>
 

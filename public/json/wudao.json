@@ -2,7 +2,7 @@
     "api": "mtop.damai.wireless.search.search",
     "data": {
         "projectInfo": [
-            {
+            {   "ips":"wudao",
                 "promotionTags": [],
                 "logicLabelInfo": {},
                 "siteStatus": 3,
@@ -40,7 +40,7 @@
                 "verticalPic": "https://img.alicdn.com/bao/uploaded/i4/2251059038/O1CN011sHi3D2GdS9r9TTkc_!!0-item_pic.jpg",
                 "formattedPriceStr": "99-880"
             },
-            {
+            {   "ips":"wudao",
                 "logicDynamicLabel": "舞蹈芭蕾畅销榜TOP10",
                 "promotionTags": [],
                 "logicLabelInfo": {
@@ -88,7 +88,7 @@
                 "verticalPic": "https://pimg.dmcdn.cn/perform/project/1766/176638_n.jpg?_t=1554281888489",
                 "formattedPriceStr": "160-1080"
             },
-            {
+            {   "ips":"wudao",
                 "promotionTags": [],
                 "logicLabelInfo": {},
                 "siteStatus": 3,
@@ -126,7 +126,7 @@
                 "verticalPic": "https://pimg.dmcdn.cn/perform/project/1765/176516_n.jpg?_t=1554114446898",
                 "formattedPriceStr": "100-880"
             },
-            {
+            {   "ips":"wudao",
                 "promotionTags": [],
                 "logicLabelInfo": {},
                 "siteStatus": 3,
@@ -164,7 +164,7 @@
                 "verticalPic": "https://pimg.dmcdn.cn/perform/project/1755/175557_n.jpg?_t=1551860394183",
                 "formattedPriceStr": "160-1280"
             },
-            {
+            {   "ips":"wudao",
                 "promotionTags": [],
                 "logicLabelInfo": {},
                 "siteStatus": 3,
@@ -202,7 +202,7 @@
                 "verticalPic": "https://img.alicdn.com/bao/uploaded/i4/2251059038/O1CN01CmZnGZ2GdS9PGEfVN_!!0-item_pic.jpg",
                 "formattedPriceStr": "80-880"
             },
-            {
+            {   "ips":"wudao",
                 "logicDynamicLabel": "舞蹈芭蕾新草榜",
                 "promotionTags": [],
                 "logicLabelInfo": {
@@ -249,7 +249,7 @@
                 "verticalPic": "https://img.alicdn.com/bao/uploaded/i1/2251059038/O1CN018zOkA12GdS9epzpYn_!!0-item_pic.jpg",
                 "formattedPriceStr": "280-1080"
             },
-            {
+            {   "ips":"wudao",
                 "logicDynamicLabel": "舞蹈芭蕾畅销榜TOP10",
                 "promotionTags": [],
                 "logicLabelInfo": {
@@ -303,7 +303,7 @@
                 "verticalPic": "https://img.alicdn.com/bao/uploaded/i4/2251059038/O1CN01MeTqZT2GdS9L3VQDu_!!0-item_pic.jpg",
                 "formattedPriceStr": "99-300"
             },
-            {
+            {   "ips":"wudao",
                 "promotionTags": [
                     "套票"
                 ],
@@ -343,7 +343,7 @@
                 "verticalPic": "https://pimg.dmcdn.cn/perform/project/1765/176501_n.jpg?_t=1554108770490",
                 "formattedPriceStr": "180-1500"
             },
-            {
+            {   "ips":"wudao",
                 "promotionTags": [],
                 "logicLabelInfo": {},
                 "siteStatus": 3,
@@ -381,7 +381,7 @@
                 "verticalPic": "https://pimg.dmcdn.cn/perform/project/1761/176170_n.jpg?_t=1553220475991",
                 "formattedPriceStr": "180-980"
             },
-            {
+            {   "ips":"wudao",
                 "promotionTags": [],
                 "logicLabelInfo": {},
                 "siteStatus": 3,

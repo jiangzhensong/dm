@@ -8,7 +8,7 @@
             >全部分类<i class="iconfont icon-icon"></i></router-link>
         </div>
         <ul class="list-info">
-            <li class="list-info-item"
+            <router-link :to="{name:'Detailitem',params:{id:item.id},query:{id:item.ips}}" class="list-info-item"
                 v-for="(item,index) in showList"
                 :key="index"
             >
@@ -20,7 +20,7 @@
                     <div class="info-city">{{item.venueCity}} / {{item.showTime}} / {{item.venueName}}</div>
                     <div class="price">￥{{item.priceStr}}</div>
                 </div>
-            </li>
+            </router-link>
         </ul>
     </div>
 </template>
@@ -37,8 +37,8 @@ export default {
         getShwoList(){
             axios.get('/json/starListss.json').then(res=>{
                 let data = res.data
-                this.showList = res.data.data.currentCity
-                console.log(this.showList);
+                this.showList = res.data.data.projectInfo
+
             })
         }
     },

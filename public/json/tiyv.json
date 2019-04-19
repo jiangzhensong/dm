@@ -3,6 +3,7 @@
     "data": {
         "projectInfo": [
             {
+                "ips":"tiyv",
                 "promotionTags": [],
                 "logicLabelInfo": {},
                 "siteStatus": 8,
@@ -40,7 +41,7 @@
                 "verticalPic": "https://pimg.dmcdn.cn/perform/project/1766/176633_n.jpg?_t=1554279789353",
                 "formattedPriceStr": "499-2399"
             },
-            {
+            {   "ips":"tiyv",
                 "promotionTags": [],
                 "logicLabelInfo": {},
                 "siteStatus": 3,
@@ -78,7 +79,7 @@
                 "verticalPic": "https://pimg.dmcdn.cn/perform/project/1759/175967_n.jpg?_t=1552643194044",
                 "formattedPriceStr": "200-2200"
             },
-            {
+            {   "ips":"tiyv",
                 "promotionTags": [],
                 "logicLabelInfo": {},
                 "siteStatus": 3,
@@ -116,7 +117,7 @@
                 "verticalPic": "https://img.alicdn.com/bao/uploaded/i3/2251059038/O1CN01TTpOwX2GdS9gGT6sA_!!0-item_pic.jpg",
                 "formattedPriceStr": "80-150"
             },
-            {
+            {   "ips":"tiyv",
                 "promotionTags": [],
                 "logicLabelInfo": {},
                 "siteStatus": 3,
@@ -154,7 +155,7 @@
                 "verticalPic": "https://pimg.dmcdn.cn/perform/project/1766/176671_n.jpg?_t=1554366628442",
                 "formattedPriceStr": "50-2500"
             },
-            {
+            {   "ips":"tiyv",
                 "promotionTags": [],
                 "logicLabelInfo": {},
                 "siteStatus": 3,
@@ -192,7 +193,7 @@
                 "verticalPic": "https://img.alicdn.com/bao/uploaded/i4/2251059038/O1CN01wyHbx92GdS9WR8pAn_!!0-item_pic.jpg",
                 "formattedPriceStr": "20-60"
             },
-            {
+            {   "ips":"tiyv",
                 "promotionTags": [],
                 "logicLabelInfo": {},
                 "siteStatus": 3,
@@ -230,7 +231,7 @@
                 "verticalPic": "https://pimg.dmcdn.cn/perform/project/1760/176090_n.jpg?_t=1553064829117",
                 "formattedPriceStr": "180-1300"
             },
-            {
+            {   "ips":"tiyv",
                 "promotionTags": [],
                 "logicLabelInfo": {},
                 "siteStatus": 3,
@@ -268,7 +269,7 @@
                 "verticalPic": "https://img.alicdn.com/bao/uploaded/i2/2251059038/O1CN01QxZhMe2GdS9qiQ7hV_!!0-item_pic.jpg",
                 "formattedPriceStr": "100-200"
             },
-            {
+            {   "ips":"tiyv",
                 "promotionTags": [],
                 "logicLabelInfo": {},
                 "siteStatus": 3,
@@ -306,7 +307,7 @@
                 "verticalPic": "https://pimg.dmcdn.cn/perform/project/1765/176587_n.jpg?_t=1554286296989",
                 "formattedPriceStr": "210-1890"
             },
-            {
+            {   "ips":"tiyv",
                 "promotionTags": [],
                 "logicLabelInfo": {},
                 "siteStatus": 3,
@@ -344,7 +345,7 @@
                 "verticalPic": "https://pimg.dmcdn.cn/perform/project/1750/175056_n.jpg?_t=1552623782053",
                 "formattedPriceStr": "50-100"
             },
-            {
+            {   "ips":"tiyv",
                 "promotionTags": [],
                 "logicLabelInfo": {},
                 "siteStatus": 3,

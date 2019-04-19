@@ -11,7 +11,7 @@
             :key="index"
             class="list-info-item"
         >
-            <router-link class="item-item" :to="{name:'Detailitem',params:{id:item.id},query:{id:queryId}}">
+            <router-link class="item-item" :to="{name:'Detailitem',params:{id:item.id},query:{id:item.ips}}">
                 <div class="item-img">
                    <img :src="item.verticalPic">
                 </div>
@@ -31,18 +31,18 @@ export default {
     props:{
         theList:{
             type:Array
-        }
+        },
     },
     data() {
         return {
             thelist: this.theList,
             loading: false,
             finished: false,
-            queryId:this.$route.path.substring(9),
+            queryId:this.$route.query.id
         };
     },
-
-
+    computed:{
+    },
     methods: {
         onLoad() {
         // 异步更新数据
@@ -60,7 +60,7 @@ export default {
                 }
             }, 500);
         }
-    }
+    },
 }
 </script>
 <style lang="less">

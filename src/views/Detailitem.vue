@@ -45,6 +45,7 @@ export default {
     methods:{
         getIditem(){
             let theList = this.$route.query.id;
+            console.log(theList);
             Axios.get('/json/'+theList+'.json').then(res=>{
                 let data = res.data;
                 let thatList = [];
