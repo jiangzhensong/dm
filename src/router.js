@@ -100,7 +100,7 @@ const router = new VueRouter({
       ]
     },
     {
-      path:'/detail',component:()=>import('./views/Detailitem.vue')
+      path:'/detailitem/:id',name:'Detailitem',component:()=>import('./views/Detailitem.vue')
     },
 
   ]

@@ -11,7 +11,7 @@
             :key="index"
             class="list-info-item"
         >
-            <router-link class="item-item" to="/detail">
+            <router-link class="item-item" :to="{name:'Detailitem',params:{id:item.id},query:{id:queryId}}">
                 <div class="item-img">
                    <img :src="item.verticalPic">
                 </div>
@@ -37,7 +37,8 @@ export default {
         return {
             thelist: this.theList,
             loading: false,
-            finished: false
+            finished: false,
+            queryId:this.$route.path.substring(9),
         };
     },
 

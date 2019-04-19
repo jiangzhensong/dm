@@ -59,6 +59,8 @@ export default {
             align-items: center;
             margin-bottom: 18px;
             .list-title-item{
+                font-size: 14px;
+                color: #000;
             }
         }
         .list-info{
@@ -81,12 +83,23 @@ export default {
                 .item-info{
                     width: 202px;
                     height: 102px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
                     .info-title{
                         font-size: 14px;
                         line-height: 18px;
                         color: #111;
                         overflow: hidden;
                         text-overflow: ellipsis;
+                        font-size: 14px;
+                        color: #111;
+                        font-weight: 700;
+
+                        display: -webkit-box;
+                        -webkit-line-clamp: 2;
+                        -webkit-box-orient: vertical;
+                        overflow: hidden;
                     }
                     .info-city{
                         font-size: 10px;
@@ -96,8 +109,14 @@ export default {
                         overflow: hidden;
                         white-space: nowrap;
                         text-overflow: ellipsis;
-                        margin-bottom: 32px;
                         color: #111111;
+                        color: #aaa;
+                        padding-top: 5px;
+                    }
+                    .price{
+                        font-size: 12px;
+                        font-weight: 600;
+                        color: #ff1268;
                     }
                 }
             }

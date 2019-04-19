@@ -32,6 +32,7 @@ export default {
         width: 100%;
         height: 134px;
         padding: 0 15px;
+        box-sizing: border-box;
         .wrap-title{
             font-weight: normal;
             font-size: 18px;

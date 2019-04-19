@@ -12,6 +12,7 @@
             </ul>
         </div>
         <Miucontent :routerList="theRouter" :gitListss="getLists"></Miucontent>
+        <router-link class="goIndex" to="/home">首页</router-link>
     </div>
 </template>
 
@@ -61,7 +62,21 @@ export default {
     }
 }
 </script>
-<style lang="less">
+<style lang="less"> 
+    .goIndex{
+        position: fixed;
+        width: 40px;
+        height: 40px;
+        font-size: 14px;
+        color: #fff;
+        background: rgba(255, 18, 104, 0.5);
+        border-radius: 50%;
+        right: 10px;
+        top: 150px;
+        text-align: center;
+        line-height: 40px;
+    }
+
     #prohead{
         position: fixed;
         top: 0;
