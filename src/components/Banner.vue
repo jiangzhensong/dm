@@ -8,9 +8,6 @@
                 <img src="//img.alicdn.com/tps/i4/TB1eIXzLMDqK1RjSZSySuuxEVXa.jpg_q60.jpg_.webp">
             </div>
             <div class="swiper-slide">
-                <img src="//img.alicdn.com/tps/i4/TB1Sd4rQPDpK1RjSZFrSuu78VXa.jpg_q60.jpg_.webp">
-            </div>
-            <div class="swiper-slide">
                 <img src="//img.alicdn.com/tps/i4/TB1wIZ2QCzqK1RjSZPcSuvTepXa.jpg_q60.jpg_.webp">
             </div>
             <div class="swiper-slide">

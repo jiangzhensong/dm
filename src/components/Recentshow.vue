@@ -18,7 +18,7 @@
     </div>
     <div class="recent_content" >
       <ul>
-        <router-link to="/detail" tag="li"  v-for="item in mList" v-bind:key=item.id>
+        <router-link :to=item.rid tag="li"  v-for="item in mList" v-bind:key=item.id>
           <img :src="item.imgurl" alt="">
           <h3>{{item.name}}</h3>
           <p>{{item.cost}}</p>
@@ -53,23 +53,27 @@ export default {
   data() {
     return {
       mList:[
+
         {
-          "id": 100,
-          "name": "《24/7 Serendipity》",
+          "id": 1,
+          "name": "杨千嬅巡回演唱会",
           "cost": "￥200-538",
-          "imgurl": "//pimg.dmcdn.cn/perform/project/1747/174771_n.jpg?_t=1551770083344&x-oss-process=image/quality,q_60/format,webp"
+          "imgurl": "https://img.alicdn.com/bao/uploaded/i2/2251059038/O1CN01C27Vl72GdS9jgLKO1_!!0-item_pic.jpg",
+          "rid":"/detailitem/590864257818?id=yanchanghui"
         },
         {
-          "id": 101,
-          "name": "《哈利·波特与魔法石》",
+          "id": 2,
+          "name": "郭富城“舞林密码”",
           "cost": "￥435-750",
-          "imgurl": "//pimg.dmcdn.cn/perform/project/1765/176517_n.jpg?_t=1554172706488?1555517779465&x-oss-process=image/resize,p_50"
+          "imgurl": "https://img.alicdn.com/bao/uploaded/i4/2251059038/O1CN01qzoLTp2GdS936W9kY_!!0-item_pic.jpg",
+          "rid":"/detailitem/588531131706?id=yanchanghui"
         },
         {
-          "id": 102,
-          "name": "《闽南传奇》",
+          "id": 3,
+          "name": "Isaac Gracie",
           "cost": "￥200-538",
-          "imgurl": "//pimg.dmcdn.cn/perform/project/1722/172294_n.jpg?_t=1545812463760&x-oss-process=image/quality,q_60/format,webp"
+          "imgurl": "https://img.alicdn.com/bao/uploaded/i3/2251059038/O1CN01EMaI0M2GdS9KD6uJA_!!0-item_pic.jpg",
+          "rid":"/detailitem/587923645008?id=yanchanghui"
         }
       ]
     }
