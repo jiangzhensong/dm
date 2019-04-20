@@ -202,6 +202,7 @@ body {
       .input-cont {
         height: 46px;
         font-size: 14px;
+        border: 0;
       }
     }
 
