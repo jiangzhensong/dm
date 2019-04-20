@@ -89,7 +89,7 @@ export default {
   },
   methods: {
     getData() {
-      Axios.get("json/stardata.json").then(res => {
+      Axios.get("json/mydatas.json").then(res => {
         var data = res.data;
 
         //拿到url里的：id

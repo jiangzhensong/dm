@@ -35,6 +35,7 @@
         >{{ item.name }}</li>
       </ul>
     </div>
+     <router-link to="/home" tag="div" class="nav-back">首页</router-link>
     <router-view></router-view>
   </div>
 </template>
@@ -224,6 +225,18 @@ export default {
   height: 150px;
   width: 100%;
   margin: 0 auto;
+}
+.nav-back{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: palevioletred;
+  opacity: 0.9;
+  line-height: 40px;
+  text-align: center;
+  position: fixed;
+  right: 0;
+  top: 50%;
 }
 </style>
 

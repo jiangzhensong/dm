@@ -200,6 +200,7 @@ body {
         outline-width: 0;
       }
       .input-cont {
+        height: 46px;
         font-size: 14px;
       }
     }
@@ -229,8 +230,19 @@ body {
       bottom: 10px;
     }
   }
-  .getNumber {
-    font-size: 12px;
+  .input-control-span {
+    display: block;
+    height: 46px;
+    background: #fff;
+    float: right;
+    .getNumber {
+      width: 88px;
+      height: 46px;
+      text-align: center;
+      font-size: 12px;
+      background: #fff;
+      border: 0;
+    }
   }
 }
 .text-danger {
