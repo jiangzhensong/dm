@@ -1,20 +1,17 @@
 <template>
-  <div>
+  <div class="box-show">
     <div class="mui-zebra-module" id="J_5745171055">
-      <div class="zebra-dm-search">
-        <div class="dmui-searchbar" id="searchbar">
-          <form action method="post" class="dmui-searchbar__form">
-            <i class="iconfont icon-sousuo1"></i>
-            <input
-              type="text"
-              class="dmui-searchbar__input"
-              placeholder="          搜索运动员、赛事、赛季、俱乐部"
-              data-spm-anchor-id="a2o71.12489654.5745171055.i0"
-            >
-          </form>
-        </div>
-      </div>
+      <form action method="post" class="dmui-searchbar__form">
+        <i class="iconfont icon-sousuo1"></i>
+        <input
+          type="text"
+          class="dmui-searchbar__input"
+          placeholder="  搜索运动员、赛事、赛季、俱乐部"
+          data-spm-anchor-id="a2o71.12489654.5745171055.i0"
+        >
+      </form>
     </div>
+
     <Bananer :banners="bannerList" id="change-banner"></Bananer>
     <div class="content zebra-dm-moqie" data-mod-name="mui/zebra-dm-moqie/index">
       <div class="clip-imgs-list" style="padding-bottom:16.53333333333333%">
@@ -28,19 +25,15 @@
       </div>
     </div>
     <div class="tabs-bar-wrapper">
-      <div class="tabs-bar">
-        <ul class="tabs-nav slide-box" id="slide-box">
-          <li
-            class="slide-item"
-            v-for="item in filmTy"
-            :key="item.id"
-            :class="{ active: curType === item.id }"
-            @click="changeType(item)"
-          >
-            <span>{{ item.name }}</span>
-          </li>
-        </ul>
-      </div>
+      <ul class="tabs-nav slide-box" id="slide-box">
+        <li
+          class="slide-item"
+          v-for="item in filmTy"
+          :key="item.id"
+          :class="{ active: curType === item.id }"
+          @click="changeType(item)"
+        >{{ item.name }}</li>
+      </ul>
     </div>
     <router-view></router-view>
   </div>
@@ -125,27 +118,30 @@ export default {
 .mui-zebra-module {
   width: 100%;
   height: 52px;
-  display: flex;
-  justify-content: center;
-  padding: 10px;
-  .zebra-dm-search {
-    height: 30px;
+  background: #fff;
+  line-height: 52px;
+  text-align: center;
+  .dmui-searchbar__form {
+    display: flex;
     position: relative;
-    .dmui-searchbar {
-      position: relative;
-      i {
-        position: absolute;
-        right: 10px;
-        top: 5px;
-      }
-    }
-    input {
+    width: 256px;
+    height: 50px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    .dmui-searchbar__input {
+      margin-top: 8px;
       width: 256px;
-      height: 35px;
-      border: 0;
+      height: 28px;
       border-radius: 14px;
-      border:1px #c5c3c3 solid;
-    } 
+      font-size: 12px;
+      border: 1px #b66678 solid;
+      padding: 0 0 0 5px;
+    }
+    i {
+      position: absolute;
+      right: 0;
+      margin-right: 10px;
+    }
   }
   .swiper-container {
     width: 100%;
@@ -161,15 +157,16 @@ export default {
   height: 60px;
   .clip-imgs-list {
     position: absolute;
+    height: 60px;
     width: 100%;
     .mui-lazy {
+      position: absolute;
       width: 100%;
       height: 60px;
     }
   }
   .clip-areas {
     position: absolute;
-  
     align-items: center;
     width: 100%;
     height: 60px;
@@ -179,50 +176,54 @@ export default {
     }
   }
 }
+
 .tabs-bar-wrapper {
   position: relative;
   width: 100%;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  box-sizing: border-box;
 
-  .tabs-bar {
-    overflow: hidden;
+  .slide-box {
     width: 100%;
-    .slide-box {
-      width: 100%;
-      height: 30px;
-      margin-top: 10px;
-      display: -webkit-box;
-      overflow-x: auto;
-      /*适应苹果*/
-      -webkit-overflow-scrolling: touch;
-      overflow: -moz-scrollbars-none;
-    }
+    height: 43px;
+    margin-top: 10px;
+    display: -webkit-box;
+    overflow-x: auto;
 
+    /*适应苹果*/
+    -webkit-overflow-scrolling: touch;
+    overflow: -moz-scrollbars-none;
     .slide-item {
+      position: relative;
       width: 85px;
-      height: 30px;
+      height: 40px;
       border: 1px solid #ccc;
-      line-height: 30px;
+      line-height: 40px;
       text-align: center;
       margin-right: 10px;
-      border-radius: 10px;
+      border-radius: 20px;
       background-color: #dbddff;
-      color: #b163fc;
+      font-size: 13px;
+      list-style: none;
 
       &.active {
         color: #ffffff;
         background-color: #7200ff;
       }
     }
+
     /*隐藏掉滚动条*/
-    .slide-box::-webkit-scrollbar {
-      display: none;
-      overflow: -moz-scrollbars-none;
-    }
+  }
+  .slide-box::-webkit-scrollbar {
+    display: none;
   }
 }
-#change-banner{
-height: 150px;
-width: 100%;
+#change-banner {
+  height: 150px;
+  width: 100%;
+  margin: 0 auto;
 }
 </style>
 

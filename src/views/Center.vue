@@ -32,10 +32,8 @@
 import Axios from "axios";
 export default {
   created() {
-    Axios.post("/api/lovev/miguMovie/data/seeFilmData.jsp", {
+    Axios.post("/api/lovev/miguMovie/data/seeFilmData.jsp", {}).then(res => {
      
-    }).then(res => {
-      window.console.log(res.data);
     });
   }
 };

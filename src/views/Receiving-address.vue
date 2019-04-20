@@ -85,13 +85,14 @@ export default {
 
   created() {
     window.console.log("创建之前");
-    Axios.get("/api/ptapi/getScenesList?theme=q"// {
+    Axios.get(
+      "/api/ptapi/getScenesList?theme=q" // {
       //params: {
-        //theme: 'quality',
-       // tab: 'all',
-        //ci: 30,
-        //limit: 12
-     // }
+      //theme: 'quality',
+      // tab: 'all',
+      //ci: 30,
+      //limit: 12
+      // }
     ).then(res => {
       window.console.log(res.data);
     });

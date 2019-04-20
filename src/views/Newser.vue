@@ -53,7 +53,7 @@ export default {
       countdown: 60,
       // 按钮上的文字
       codeMsg: "获取验证码",
-      Countdownmuber:''
+      Countdownmuber: ""
     };
   },
   methods: {
@@ -62,29 +62,26 @@ export default {
 
       var xx = (window.sessionStorage["Key"] = this.username);
       var xxx = window.sessionStorage.getItem("Key");
-      if(xxx){
-       this.$router.push("/login");
+      if (xxx) {
+        this.$router.push("/login");
       }
-      window.console.log(xxx, xx);
     },
-     Countdown() {
+    Countdown() {
       var code = "";
-      this.Countdownmuber='';
+      this.Countdownmuber = "";
       for (var i = 0; i < 6; i++) {
         var radom = Math.floor(Math.random() * 10);
-        code += radom
+        code += radom;
       }
-      this.Countdownmuber=code
-      alert('您的验证码是:'+code)
-      window.console.log(this.Countdownmuber)
-     
+      this.Countdownmuber = code;
+      alert("您的验证码是:" + code);
+
       if (!this.timer) {
         this.timer = setInterval(() => {
           if (this.countdown > 0 && this.countdown <= 60) {
             this.countdown--;
             if (this.countdown !== 0) {
               this.codeMsg = "重新发送(" + this.countdown + ")";
-             
             } else {
               clearInterval(this.timer);
               this.codeMsg = "获取验证码";
@@ -138,7 +135,7 @@ body {
         color: #191a1b;
         border: 0;
         outline-width: 0;
-        outline:none;
+        outline: none;
       }
       .input-cont {
         width: 65%;
@@ -152,11 +149,11 @@ body {
       }
       .input-control-span {
         float: right;
-        .getNumber{
-            height: 40px;
-            background: #fff;
-            outline:none;
-            border: 0;
+        .getNumber {
+          height: 40px;
+          background: #fff;
+          outline: none;
+          border: 0;
         }
       }
     }
